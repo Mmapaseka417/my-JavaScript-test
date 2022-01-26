@@ -1,20 +1,6 @@
-function login () {
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    console.log(password);
+const cars = ["Saab", "Volvo", "BMW","ford","izuzu","rental","mercden","aduio","bently","chervolet","fiat","dogge","honda","jeep","kia"];
+const display = document.getElementById("display");
+for (let i =0; i <cars.length; i ++ ) {
+    display.innerHTML += "<ol>" + cars[i] + "</ol>";
 
-    if (email == "user@gmail.com" && password == "mypassword") {
-        window.location.href = "home.html";
-        console.log('login')
-    
-    }
-     else {
-        alert("invaild Email and Password"); {
-
-        }
-
-     }
-    }
-
-
-
+}

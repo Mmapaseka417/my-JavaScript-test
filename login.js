@@ -1,14 +1,52 @@
-<form action="signup.html" method="post" id="login">
-	<h1>login</h1>
-	<div class="field">
-		<label for="email">Email:</label>
-		<input type="text" id="email" name="email" placeholder="Enter your email address" />
-		<small></small>
-	</div>
-	<div class="field">
-		<label for="password">Password:</label>
-		<input type="text" id="passwrod" name="password" placeholder="Enter your password" />
-		<small></small>
-	</div>
-	<button type="submit">Subscribe</button>
-</form>
+function login () {
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    console.log(password);
+
+    if (email == "user@gmail.com" && password == "mypassword") {
+        window.location.href = "home.html";
+        console.log('login')
+    
+    }
+     else {
+        alert("invaild Email and Password"); {
+
+        }
+
+     }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
