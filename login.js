@@ -1,36 +1,36 @@
 function login () {
-    var email = document.getElementById("email").value;
+    var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
-    console.log(password);
 
-    if (email == "user@gmail.com" && password == "mypassword") {
+
+    if (username == "name" && password == "mypassword") {
         window.location.href = "home.html";
-        console.log('login')
     
     }
      else {
-        alert("invaild Email and Password"); {
+        alert("username and Password"); {
 
         }
 
      }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
