@@ -1,52 +1,21 @@
-function login () {
-    var username = document.getElementById("username").value;
-    var password = document.getElementById("password").value;
+function submit() {
+    var username = document.getElementById("email").value;
+    var password = document.getElementById("pwd").value;
+
+
+if (username == "") {
+    alert("I will not share username with anyone");
+    return;
+}
+
+if (password == "") {
+    alert("I will not share password with anyone");
+    return;
+}
 
 
     if (username == "name" && password == "mypassword") {
         window.location.href = "home.html";
     
     }
-     else {
-        alert("username and Password"); {
-
-        }
-
-     }
-    }
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
