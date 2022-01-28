@@ -14,7 +14,7 @@ if (password == "") {
 }
 
 
-    if (username == "name" && password == "mypassword") {
+    if (username == "user@gmail.com" && password == "mypassword") {
         window.location.href = "home.html";
     
     }
